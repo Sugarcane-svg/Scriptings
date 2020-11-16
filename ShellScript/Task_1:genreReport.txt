@@ -1,0 +1,20 @@
+Adventure:     3435
+Animation:     2424
+Children:     2420
+Comedy:    13851
+Fantasy:     2262
+Romance:     6381
+Drama:    20485
+Crime:     4375
+Action:     6398
+Thrill:     7125
+Horror:     4862
+Total: 74018 
+Total records:    58099 genre.txt
+
+
+
+This is the report of genres with 58099 records read.
+I extract genre records from movies.csv, sort it and group them and count them for better visulization and analization.
+Even though the number of total is over the number of total records, it is not a big deal. we can see that comedy and dramas are the top two genres liked the most by audience. So, if I have enough money to invest on a movie, I will put these two options on the top of my head.
+

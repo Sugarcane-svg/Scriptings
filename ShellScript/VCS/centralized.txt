@@ -1,0 +1,33 @@
+ 435  svn add centralized
+  436  cd centralized
+  437  svn add centralized
+  438  cd ..
+  439  svn co https://github.com/Sugarcane-svg/shellScript
+  440  ls
+  441  cd shellScript/vcs
+  442  cd shellScript
+  443  ls
+  444  cd trunk
+  445  ls
+  446  cd vcs
+  447  cp ../../../centralized/centralied.txt .
+  448  cp ../../centralized/centralied.txt .
+  449  cp ../../../centralized/centralied.txt .
+  450  cd ..
+  451  cd centralized
+  452  ls
+  453  cp . ../shellScript/trunk/vcs
+  454  cp ./* ../shellScript/trunk/vcs
+  455  cd ../shellScript/trunk/vcs
+  456  ls
+  457  vi centralized.txt
+  458  history | tail -20 >> centralized.txt
+  459  cat centralized.txt
+  460  cd ..
+  461  svn add trunk
+  462  cd ..
+  463  svn add trunk
+  464  svn commit -m "trying commit through svn"
+  465  svn log
+  466  cd ..
+  467  rm -rf repo2

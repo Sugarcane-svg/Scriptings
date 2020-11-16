@@ -1,0 +1,33 @@
+  339  mkdir repo1
+  340  cd repo1
+  341  git init .
+  342  cp ~/desktop/test/hello.sh .
+  343  ls
+  344  vim hello.sh
+  345  git status
+  346  git add .
+  347  git commit -m "print today's date after printing hello"
+  348  git log
+  349  history
+  350  vim log.txt
+  351  git status
+  352  git add .
+  353  git commit -m "add log file"
+  354  git push shellScript master
+  355  git push ../shellScript master master
+  356  cd ../shellScript
+  357  mkdir VCS
+  358  cd vcs
+  359  cp ../../log.txt .
+  360  cp ../../repo1/log.txt .
+  361  ls339  mkdir repo1
+  340  cd repo1
+  341  git init .
+  342  cp ~/desktop/test/hello.sh .
+  343  ls
+  344  vim hello.sh
+  345  git status
+  346  git add .
+  347  git commit -m "print today's date after printing hello"
+  348  git log
+

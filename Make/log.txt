@@ -1,0 +1,30 @@
+  878  git commit -m "simplier makefile"
+  879  ls
+  880  make clean
+  881  ls
+  882  make
+  883  ls
+  884  make clean
+  885  git status
+  886  git log
+  887  vi makefile
+  888  git add makefile 
+  889  git commit -m "makefile with 'clean'"
+  890  make clean
+  891  vi makefile2
+  892  make -f makefile2
+  893  ls
+  894  vi makefile2
+  895  make -f makefile2 clean
+  896  ls
+  897  make -f makefile2
+  898  git add makefile2
+  899  git commit -m "task 2: checked"
+  900  vi makefile2
+  901  git add makefile2
+  902  git commit -m "comment makefile2"
+  903  ls
+  904  gcc hello
+  905  gcc hello.c
+  906  ./a.out
+  907  history | tail -30

@@ -1,0 +1,11 @@
+#Task2:
+hello: #implicit command of " cc hello.o -o hello"
+hello.o: # implicit command of "cc -c hello.c -o hello.o"
+hello.c: #hello world code in c++
+	echo "#include <stdio.h>">hello.c
+	echo "int main() { printf(\"Hello world\"); return 0;}">>hello.c
+
+.PHONY: clean
+clean:
+	rm -f hello hello.o hello.c
+
